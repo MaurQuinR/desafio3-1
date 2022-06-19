@@ -1,0 +1,25 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    background-color: black;
+    height: 73px;
+    text-align: center;
+    overflow: hidden;
+}
+
+header h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 11.5px;
+}
+
+#slider{
+    height: 727px;
+    background-image: url(../img/bg-header.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    /* background-position: 100px 0; */
+}
