@@ -1,9 +1,16 @@
+/* Se configura font y color de la página completa */
 body {
     font-family: 'Raleway', sans-serif;
+    background-color: black;
 }
 
+main {
+    width: 1280px;
+    height: auto;
+}
+
+/* Título de la página */
 header {
-    background-color: black;
     height: 73px;
     text-align: center;
     overflow: hidden;
@@ -19,7 +26,48 @@ header h1{
 #slider{
     height: 727px;
     background-image: url(../img/bg-header.jpg);
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-size: cover;
-    /* background-position: 100px 0; */
+    background-position: center center;
+}
+
+#descripcion_iguanas {
+    height:727;
+    overflow: hidden;
+}
+
+#descripcion_iguanas article {
+    width: 75%;
+    margin: 55.5px auto;
+    overflow: hidden;
+}
+
+#descripcion_iguanas_texto {
+    width: 60%;
+    float: left;
+    padding: 40px 0;
+    color: white;   
+}
+
+#descripcion_iguanas_imagen {
+    width: 60%;
+    float: right;
+    padding: 40px 0;
+}
+
+
+
+
+
+
+footer{
+    text-align: center;
+    background: #1E1A13 0% 0% no-repeat padding-box;
+    opacity: 0.94;
+    height: 102px;
+    margin: 0;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center; 
 }
