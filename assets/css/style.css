@@ -33,41 +33,55 @@ header h1{
 
 #descripcion_iguanas {
     height:727;
-    overflow: hidden;
-}
+ } 
 
 #descripcion_iguanas article {
-    width: 75%;
-    margin: 55.5px auto;
-    overflow: hidden;
+    width: 76.5%;
+    margin: 45px auto;   
+    display: flow-root; 
 }
 
 #descripcion_iguanas_texto {
-    width: 60%;
+    width: 48%;
     float: left;
-    padding: 40px 0;
+    padding: 31px 0;
     color: white;   
 }
 
 #descripcion_iguanas_imagen {
-    width: 60%;
     float: right;
-    padding: 40px 0;
-}
+    padding: 0 0 0 106px;
+}  
 
-
-
-
-
-
-footer{
+.caracteristicas h2 {
+    padding: 0px;
+    margin: 0px;
     text-align: center;
-    background: #1E1A13 0% 0% no-repeat padding-box;
+    color: white; 
+
+}
+/* #caracteristicas {
+    width: 30%;
+    padding: 1%;
+    display: inline-block;
+
+} */
+
+
+
+
+footer {    
+    background-color: #1E1A13;
     opacity: 0.94;
     height: 102px;
-    margin: 0;
+    
+
+}
+
+footer p{   
+    padding-top: 39px;
     color:white;
-    display:flex;
-    align-items: center;
-    justify-content: center; 
+    text-align: center;
+    font-size: 1.25em;
+
 }
