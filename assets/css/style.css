@@ -1,105 +1,116 @@
-/* Se configura font y color de la página completa */
+/* Configuración para la página completa */
 body {
-    font-family: 'Raleway', sans-serif;
-    background-color: black;
-    color: #FFFFFF;
+  font-family: "Raleway", sans-serif;
+  background-color: black;
+  color: #ffffff;
 }
 
 main {
-    /* width: 1280px; */
-    height: auto;
+  width: 1280px;
+  height: auto;
 }
 
 /* Título de la página */
 header {
-    height: 73px;
-    text-align: center;
-    overflow: hidden;
+  height: 73px;
+  text-align: center;
+  opacity: 1;
 }
 
-header h1{
-    font-size: 50px;
-    font-weight: 500;
-    margin-top: 11.5px;
+header h1 {
+  font-size: 50px;
+  font-weight: 500;
+  margin-top: 11.5px;
 }
 
-#slider{
-    height: 727px;
-    background-image: url(../img/bg-header.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+#slider {
+  height: 727px;
+  background-image: url(../img/bg-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  opacity: 1;
 }
+
+/* #descripcion_iguanas {
+  /* height: 727; 
+  height: 348px;
+} */
 
 #descripcion_iguanas {
-    height:727;
- } 
-
-#descripcion_iguanas article {
+    /* height: 348px; */
+    height: 237px;
     width: 76.5%;
-    margin: 45px auto;   
-    display: flow-root; 
-}
+    margin: 45px auto;
+    padding-bottom: 21px;
+    display: flow-root;
+  }
+
+/* #descripcion_iguanas article {
+  width: 76.5%;
+  margin: 45px auto;
+  display: flow-root;
+} */
 
 #descripcion_iguanas_texto {
-    width: 48%;
-    float: left;
-    padding: 31px 0;   
+  font-size: 16px;
+  width: 48%;
+  float: left;
+  padding: 31px 0;
+  font-weight: 300;
 }
 
 #descripcion_iguanas_imagen {
-    float: right;
-    padding: 0 0 0 106px;
-}  
-
-.features{
-    background-color: #1E1A13;
-    text-align: center;
-    margin: 66px 0 73px auto;
-    height: 348px;
+  float: right;
+  padding-left: 106px;
 }
 
-.feature {      
-    width: 30%;
-    padding: 1%;
-    display: inline-block;
+.features {
+  background-color: #1e1a13;
+  text-align: center;
+  /* margin: 66px 0 73px auto; */
+  height: 348px;
+}
+
+.feature {
+  width: 30%;
+  padding: 1%;
+  display: inline-block;
 }
 
 .features h2 {
-    padding: 68px;
-    margin: 0px;
-    font-size: 40px;
-    text-align: center;
+  padding: 68px;
+  margin: 0px;
+  font-size: 40px;
+  text-align: center;
 }
 
-.feature i {    
-    display: block;
-    padding: 0.5em;
+.feature i {
+  display: block;
+  padding: 0.5em;
 }
-
 
 #galeria {
-    height: 348px;
-    padding-left: 150px;
-
+  height: 348px;
+  padding: 73px 142px 73px 142px;
 }
 
 .foto {
-    display: inline-block;
+  display: inline-block;
 }
 
-.foto img { 
-    padding-left: 16px;
+.foto img {
+  padding-left: 16px;
 }
 
-footer {    
-    background-color: #1E1A13;
-    opacity: 0.94;
-    height: 102px;
+footer {
+  background-color: #1e1a13;
+  opacity: 0.94;
+  height: 102px;
 }
 
-footer p{   
-    padding-top: 39px;
-    text-align: center;
-    font-size: 1.25em;
+footer p {
+  padding-top: 39px;
+  text-align: center;
+  font-size: 1.25em;
 }
