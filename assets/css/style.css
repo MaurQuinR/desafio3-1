@@ -76,6 +76,7 @@ header h1 {
   width: 30%;
   padding: 1%;
   display: inline-block;
+  font-size: 25px;
 }
 
 .features h2 {
@@ -91,8 +92,8 @@ header h1 {
 }
 
 #galeria {
-  height: 348px;
-  padding: 73px 142px 73px 142px;
+  height: 202px;
+  padding: 73px 141px 73px 133px;
 }
 
 .foto {
