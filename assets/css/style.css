@@ -23,6 +23,7 @@ header h1 {
   margin-top: 11.5px;
 }
 
+/* Foto de iguana en grande */
 #slider {
   height: 727px;
   background-image: url(../img/bg-header.jpg);
@@ -32,25 +33,14 @@ header h1 {
   opacity: 1;
 }
 
-/* #descripcion_iguanas {
-  /* height: 727; 
-  height: 348px;
-} */
-
-#descripcion_iguanas {
-    /* height: 348px; */
+/* descripcion iguanas */
+#descripcion_iguanas {   
     height: 237px;
     width: 76.5%;
     margin: 45px auto;
     padding-bottom: 21px;
     display: flow-root;
   }
-
-/* #descripcion_iguanas article {
-  width: 76.5%;
-  margin: 45px auto;
-  display: flow-root;
-} */
 
 #descripcion_iguanas_texto {
   font-size: 16px;
@@ -65,22 +55,22 @@ header h1 {
   padding-left: 106px;
 }
 
+/* Caracteristicas */
 .features {
   background-color: #1e1a13;
   text-align: center;
-  /* margin: 66px 0 73px auto; */
   height: 348px;
 }
 
 .feature {
-  width: 30%;
-  padding: 1%;
+  width: 33%;
   display: inline-block;
   font-size: 25px;
 }
 
 .features h2 {
-  padding: 68px;
+  padding-top: 68px;
+  padding-bottom: 48px;
   margin: 0px;
   font-size: 40px;
   text-align: center;
@@ -91,6 +81,7 @@ header h1 {
   padding: 0.5em;
 }
 
+/* Galeria de iguanas */
 #galeria {
   height: 202px;
   padding: 73px 141px 73px 133px;
@@ -104,6 +95,7 @@ header h1 {
   padding-left: 16px;
 }
 
+/* Fin de la página */
 footer {
   background-color: #1e1a13;
   opacity: 0.94;
